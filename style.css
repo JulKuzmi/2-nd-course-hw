@@ -56,3 +56,28 @@ body {
     margin-top: 44px;
 
 }
+
+.section_game {
+    background-image: url(img/backgr2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000915;
+    height: 556px;
+}
+
+.img_game {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+    border-radius: 16px;
+    width: 379px;
+    height: 300px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.content_games {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
