@@ -145,5 +145,3 @@ switch (monthNumber) {
         alert('Такого не существует');
         break;
 }
-
-
