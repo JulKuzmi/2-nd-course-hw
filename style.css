@@ -11,7 +11,6 @@ a {
 body {
     font-family: "Montserrat", sans-serif;
 }
-
 .center{
     padding-left: calc(50% - 720px);
     padding-right: calc(50% - 720px);
@@ -68,16 +67,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background: #000915;
-    height: 556px;
 }
 
 .img_game {
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
     border-radius: 16px;
-    width: 379px;
-    height: 300px;
-    margin-top: 128px;
-    margin-bottom: 128px;
+    width: 100%;
 }
 
 .content_games {
@@ -125,8 +120,11 @@ body {
         display: flex;
         flex-direction: column;
         gap: 32px;
-        padding-left: 16px;
-        padding-right: 16px;
+    }
+
+    .img_game{
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+        border-radius: 16px;
     }
 
 
