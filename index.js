@@ -4,11 +4,6 @@ alert(10);
 alert(20);
 
 //задача2
-let year = 2007;
-alert(2007);
-
-//задача3
-let name ='Brendan Eich';
 alert('Brendan Eich');
 
 //задача4
@@ -31,12 +26,6 @@ alert(9%2);
 
 //задача7
 let num =1;
-num +=5;
-num -=3;
-num *=7;
-num /=3;
-num ++;
-num --;
 alert(num);
 
 //задача8
@@ -67,3 +56,4 @@ alert(user[info]);
 //задание 10
 let userName = prompt('Введите как вас зовут?');
 alert('Привет,'+ userName);
+ 
