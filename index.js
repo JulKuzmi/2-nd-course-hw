@@ -9,6 +9,7 @@ let yearOneIphone = 2007;
 alert(2007);
 
 //задача3
+let nameBrendanEich ='Brendan Eich';
 alert('Brendan Eich');
 
 //задача4
@@ -31,12 +32,6 @@ alert(9%2);
 
 //задача7
 let num =1;
-num+=5;
-num-=3;
-num*=7;
-num/=3;
-num++;
-num--;
 alert(num);
 
 //задача8
@@ -71,7 +66,6 @@ alert('Привет,'+ userName);
 
 //hw-3
 // задание 1 
-/*
 let password =prompt('Введите пароль');
 if (password==='мой пароль') {
     alert('Пароль введен верно');
@@ -145,4 +139,3 @@ switch (monthNumber) {
         alert('Такого не существует');
         break;
 }
-
