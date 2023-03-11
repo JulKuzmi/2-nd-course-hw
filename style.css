@@ -17,7 +17,7 @@ body {
     padding-right: calc(50% - 720px);
 }
 
-.top {
+.header {
     height: 1024px;
     background-image: url(img/backgr1.jpg);
     background-position: center;
