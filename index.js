@@ -62,10 +62,11 @@ alert(user[info]);
 //задание 10
 let userName = prompt('Введите как вас зовут?');
 alert('Привет,'+ userName);
-*/
+
 
 //hw-3
 // задание 1 
+
 let password =prompt('Введите пароль');
 if (password==='мой пароль') {
     alert('Пароль введен верно');
@@ -88,13 +89,14 @@ if (d < 100 || e > 200) {
 } else {
    console.log('Неверно'); 
 }
-//задача 4 ?// не уверена что сделала верно, но алерт выводит 5)
+//задача 4 ?
 let a = '2';
 let b = '3';
 /*alert(a + b);*/
 alert(a=b=5);
 
 // задача 5
+
 let monthNumber = String(prompt('Ведите номер месяца'));
 monthNumber = monthNumber.toLocaleLowerCase();
 switch (monthNumber) {
@@ -138,4 +140,47 @@ switch (monthNumber) {
         if(monthNumber>13);
         alert('Такого не существует');
         break;
+}
+
+//hw4
+//задача1
+let i =0;
+do {
+    alert('Привет');
+    i++
+} while (i<2);
+//задание 2
+let k =1;
+do {
+    console.log(k)
+    k++
+} while (k<6);
+//задача3
+for(let j = 7; j<=22;j++){
+    console.log(j);
+}
+//задание4
+let obj ={
+    'Коля':'200',
+    'Вася':'300',
+    'Петя':'400',
+};
+for(let key in obj){
+    alert(key + '- зарплата' + obj[key]+ 'долларов');
+}
+//задание5
+let n =1000;
+let num =0;
+while (n > 50) {
+    num++
+    n /=2;
+};
+alert(n);
+alert(num);
+//задание 6
+for (let dayNumber =1; dayNumber <=31; dayNumber++) {
+   if (dayNumber % 7 ===0) {
+    console.log (`Сегодня пятница, ${dayNumber}-е, число. Необходимо подготоваить отчет.`);
+   }
+    
 }
